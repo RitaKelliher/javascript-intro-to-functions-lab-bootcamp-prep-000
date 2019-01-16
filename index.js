@@ -25,10 +25,10 @@ function sayHiToGrandma(arg) {
   if (arg.toLowerCase() === arg) {
   console.log("I can't hear you!") 
   return "I can't hear you!"
-  } else if (arg === uppercase) {
+  } else if (arg.toUpperCase() === arg) {
     return "YES INDEED!"
     console.log("YES INDEED")
-  } else if (arg === mixedCase)
+  } else if (arg.mixedCase === arg)
   return "I love you, too!"
   console.log("I love you, too.")
   } 
