@@ -22,7 +22,7 @@ mixedCase.toLowerCase() === mixedCase
 mixedCase.toUpperCase() === mixedCase
 
 function sayHiToGrandma(arg) {
-  if (arg === lowercase) {
+  if (arg.toLowerCase() === arg) {
   console.log("I can't hear you!") 
   return "I can't hear you!"
   } else if (arg === uppercase) {
